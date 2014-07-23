@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gra W Kosci</string>
+    <string name="action_settings">Settings</string>
+    <string name="newGame">Nowa Gra</string>
+    <string name="about">O Grze</string>
+    <string name="exit">Wyjście</string>
+    <string name="title_activity_choose_players">Wybierz Graczy</string>
+    <string name="startGame">Start Gry</string>
+    <string name="addPlayer">Dodaj Gracza</string>
+    <string name="back">Powrót</string>
+    <string name="title_activity_game">Gra w Kości</string>
+    <string name="buttonRoll">Rzut</string>
+    <string name="textViewTotal">Razem</string>
+
+</resources>

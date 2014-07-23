@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainMenuLayout"
+    android:background="#317840"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" > 
+        
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="220dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="15dip"
+        android:src="@drawable/logo" />
+    
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="45dip"
+        android:layout_marginRight="45dip"
+		android:background="@drawable/button_drawable_style"
+		style="@style/button_text_style"
+        android:onClick="startNewGame"
+        android:text="@string/newGame" 
+        android:layout_below="@+id/logoImage"
+        />
+    
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newGame"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="45dip"
+        android:layout_marginRight="45dip"
+        android:background="@drawable/button_drawable_style"
+        style="@style/button_text_style"
+        android:onClick="about"
+        android:text="@string/about" />
+    
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="45dip"
+        android:layout_marginRight="45dip"
+        android:background="@drawable/button_drawable_style"
+        android:layout_below="@+id/about"
+		style="@style/button_text_style"
+        android:onClick="exit"
+        android:text="@string/exit" />
+   
+</RelativeLayout> 

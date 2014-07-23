@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ChoosePlayerLayout"
+    android:layout_width="match_parent"
+    android:background="#317840"
+    android:layout_height="match_parent" > 
+        
+  
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dip"
+        android:layout_marginTop="45dip"
+        android:layout_marginLeft="45dip"
+        android:layout_marginRight="45dip"
+        android:background="@drawable/button_drawable_style"
+        style="@style/button_text_style"
+        android:onClick="startNewGame"
+        android:text="@string/startGame" 
+        />
+  <EditText
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startGame"
+        android:background="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName" >
+    </EditText>
+    
+    <Button
+        android:id="@+id/addPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playerName"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="45dip"
+        android:layout_marginRight="45dip"
+        android:background="@drawable/button_drawable_style"
+        style="@style/button_text_style"
+        android:onClick="addPlayer"
+        android:text="@string/addPlayer" />
+
+
+    <TableLayout 
+             android:id = "@+id/tablePlayers"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/addPlayer"
+             android:layout_centerHorizontal="true"
+             android:background="#ffffff"
+             android:padding="5dp">       
+    </TableLayout>
+   
+</RelativeLayout> 
